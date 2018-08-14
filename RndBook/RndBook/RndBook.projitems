@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{561F1E1C-BF97-4DBD-8B23-10343787D026}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>RndBook</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ItemDetailViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ContactsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\IDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\IContactItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Network\IBackendClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\Models\ContactItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\DataSource\BackendDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\DataSource\MockDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Network\BackendClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Network\BackendResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)DataModel\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\Network\" />
+    <Folder Include="$(MSBuildThisFileDirectory)DataModel\Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\DataSource\" />
+  </ItemGroup>
+</Project>
