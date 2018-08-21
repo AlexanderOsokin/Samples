@@ -8,11 +8,11 @@
 
 import Foundation
 
-protocol EndpointType
+protocol EndPointType
 {
-    var baseUrl: Url {get}
+    var baseUrl: URL {get}
     var path: String {get}
     var httpMethod: HTTPMethod {get}
-    var task: HttpTask {get}
-    var headers: HttpHeaders? {get}
+    var task: HTTPTask {get}
+    var headers: HTTPHeaders? {get}
 }

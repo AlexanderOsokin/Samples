@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B194B454212C645A0038ED87 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194B453212C645A0038ED87 /* NetworkRouter.swift */; };
+		B194B456212C65660038ED87 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194B455212C65660038ED87 /* Router.swift */; };
 		B1F25C24212AE347009C75B2 /* NetworkLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F25C1A212AE346009C75B2 /* NetworkLibrary.framework */; };
 		B1F25C29212AE347009C75B2 /* NetworkLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F25C28212AE347009C75B2 /* NetworkLibraryTests.swift */; };
 		B1F25C2B212AE347009C75B2 /* NetworkLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F25C1D212AE346009C75B2 /* NetworkLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B194B453212C645A0038ED87 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		B194B455212C65660038ED87 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		B1F25C1A212AE346009C75B2 /* NetworkLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F25C1D212AE346009C75B2 /* NetworkLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkLibrary.h; sourceTree = "<group>"; };
 		B1F25C1E212AE346009C75B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				B1F25C38212C0331009C75B2 /* HTTPMethod.swift */,
 				B1F25C3A212C03A5009C75B2 /* HTTPTask.swift */,
 				B1F25C41212C525F009C75B2 /* NetworkError.swift */,
+				B194B453212C645A0038ED87 /* NetworkRouter.swift */,
+				B194B455212C65660038ED87 /* Router.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -245,12 +251,14 @@
 			files = (
 				B1F25C46212C53B2009C75B2 /* JSONParameterEncoder.swift in Sources */,
 				B1F25C3B212C03A5009C75B2 /* HTTPTask.swift in Sources */,
+				B194B456212C65660038ED87 /* Router.swift in Sources */,
 				B1F25C40212C520B009C75B2 /* ParameterEncoder.swift in Sources */,
 				B1F25C39212C0331009C75B2 /* HTTPMethod.swift in Sources */,
 				B1F25C44212C5395009C75B2 /* UrlParameterEncoder.swift in Sources */,
 				B1F25C42212C525F009C75B2 /* NetworkError.swift in Sources */,
 				B1F25C3E212C505F009C75B2 /* ParameterEncoding.swift in Sources */,
 				B1F25C37212AE445009C75B2 /* EndPointType.swift in Sources */,
+				B194B454212C645A0038ED87 /* NetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
