@@ -93,7 +93,6 @@
 			children = (
 				B1F25C3C212C04A3009C75B2 /* Encoding */,
 				B1F25C35212AE3CB009C75B2 /* Service */,
-				B1F25C34212AE3BA009C75B2 /* EndPoint */,
 				B1F25C1D212AE346009C75B2 /* NetworkLibrary.h */,
 				B1F25C1E212AE346009C75B2 /* Info.plist */,
 			);
@@ -107,13 +106,6 @@
 				B1F25C2A212AE347009C75B2 /* Info.plist */,
 			);
 			path = NetworkLibraryTests;
-			sourceTree = "<group>";
-		};
-		B1F25C34212AE3BA009C75B2 /* EndPoint */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = EndPoint;
 			sourceTree = "<group>";
 		};
 		B1F25C35212AE3CB009C75B2 /* Service */ = {
