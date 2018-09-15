@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/AppDelegate.swift"
+            timestampString = "558721337.341264"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Coordinators/AppCoordinator.swift"
+            timestampString = "558725651.012067"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "Start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Coordinators/AppCoordinator.swift"
+            timestampString = "558725651.012177"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "Start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Helpers/Storyboard+Extensions.swift"
+            timestampString = "558425811.830161"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fromStoryboard(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Models/GithubResponse.swift"
+            timestampString = "558425811.830351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTestTests/SearchTestTests.swift"
+            timestampString = "558389245.092566"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "requestCompleteWithError(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTestTests.SearchTestTests.requestCompleteWithError(Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "SearchTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTestTests/SearchTestTests.swift"
+                  timestampString = "558388864.608726"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.Optional&lt;Any&gt; in SearchTestTests.SearchTestTests.requestCompleteWithError(Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "SearchTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTestTests/SearchTestTests.swift"
+                  timestampString = "558388864.612589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/CoreSearch/GitSearchSource.swift"
+            timestampString = "558707583.546145"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "requestCompleteWithError(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTest.GitSearchSource.requestCompleteWithError(Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Services/CoreSearch/GitSearchSource.swift"
+                  timestampString = "558425708.184287"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "55">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTestTests.GitSearchSource.requestCompleteWithError(Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "SearchTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Services/CoreSearch/GitSearchSource.swift"
+                  timestampString = "558425709.776208"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/CoreSearch/GitSearchSource.swift"
+            timestampString = "558707583.546599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "parse(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTest.GitSearchSource.parse(data: Foundation.Data) -&gt; Swift.Array&lt;SearchTest.GitUser&gt;"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Services/CoreSearch/GitSearchSource.swift"
+                  timestampString = "558425708.197435"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTestTests.GitSearchSource.parse(data: Foundation.Data) -&gt; Swift.Array&lt;SearchTestTests.GitUser&gt;"
+                  moduleName = "SearchTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Services/CoreSearch/GitSearchSource.swift"
+                  timestampString = "558425709.800778"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "528">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/CoreSearch/GitSearchSource.swift"
+            timestampString = "558707583.546906"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "parse(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x112712b70">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__pthread_kill"
+                  moduleName = "libsystem_kernel.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/CoreSearch/GitSearchSource.swift"
+            timestampString = "558707583.547309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "requestCompleteWithError(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTest.GitSearchSource.requestCompleteWithError(Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Services/CoreSearch/GitSearchSource.swift"
+                  timestampString = "558425708.2126451"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "231">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTestTests.GitSearchSource.requestCompleteWithError(Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "SearchTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Services/CoreSearch/GitSearchSource.swift"
+                  timestampString = "558425709.81257"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "231">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/AppDelegate.swift"
+            timestampString = "558721337.342059"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/SearchSources/GitSearchSource.swift"
+            timestampString = "558725651.012762"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "init(httpClient:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/CoreSearch/SearchSource.swift"
+            timestampString = "558725651.012861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "parseResponse(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/HttpClient.swift"
+            timestampString = "558725651.012951"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "request(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Views/TableCells/GitTableViewCell.swift"
+            timestampString = "558725651.013047"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewModel"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Views/TableCells/GitTableViewCell.swift"
+            timestampString = "558725651.013136"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewModel"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, Swift.String) -&gt; () in SearchTest.GitTableViewCell.viewModel.didset : weak Swift.Optional&lt;SearchTest.GitItemViewModel&gt;"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Views/TableCells/GitTableViewCell.swift"
+                  timestampString = "558723176.778384"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Foundation.Data, Swift.String) -&gt; () in SearchTest.GitTableViewCell.viewModel.didset : weak Swift.Optional&lt;SearchTest.GitItemViewModel&gt;"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Views/TableCells/GitTableViewCell.swift"
+                  timestampString = "558723176.782613"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Views/TableCells/GitTableViewCell.swift"
+            timestampString = "558725651.013221"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewModel"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Views/TableCells/GitTableViewCell.swift"
+            timestampString = "558725651.013306"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewModel"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTest.GitTableViewCell.viewModel.didset : weak Swift.Optional&lt;SearchTest.GitItemViewModel&gt;"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Views/TableCells/GitTableViewCell.swift"
+                  timestampString = "558723198.743801"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1841">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, Swift.String) -&gt; () in SearchTest.GitTableViewCell.viewModel.didset : weak Swift.Optional&lt;SearchTest.GitItemViewModel&gt;"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Views/TableCells/GitTableViewCell.swift"
+                  timestampString = "558723198.747619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/ViewModels/ItunesitemViewModel.swift"
+            timestampString = "558725651.013396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "requestImage(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTest.ItunesItemViewModel.requestImage(completion: (Foundation.Data, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/ViewModels/ItunesitemViewModel.swift"
+                  timestampString = "558723176.800576"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in SearchTest.ItunesItemViewModel.requestImage(completion: (Foundation.Data, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/ViewModels/ItunesitemViewModel.swift"
+                  timestampString = "558723176.8042901"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "89">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/ViewModels/ItunesitemViewModel.swift"
+            timestampString = "558725651.013485"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "requestImage(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/HttpClient.swift"
+            timestampString = "558725651.01357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "request(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/HttpClient.swift"
+            timestampString = "558725651.0136549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "request(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/HttpClient.swift"
+            timestampString = "558725651.0137399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "request(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/ViewModels/GitItemViewModel.swift"
+            timestampString = "558725651.013827"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "requestImage(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTest.GitItemViewModel.requestImage(completion: (Foundation.Data, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/ViewModels/GitItemViewModel.swift"
+                  timestampString = "558722863.395028"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in SearchTest.GitItemViewModel.requestImage(completion: (Foundation.Data, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/ViewModels/GitItemViewModel.swift"
+                  timestampString = "558722863.397684"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "89">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/ViewModels/GitItemViewModel.swift"
+            timestampString = "558725651.013917"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "requestImage(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/SearchSources/ItunesSearchSource.swift"
+            timestampString = "558725651.014008"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "search(query:searchComplete:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in SearchTest.ItunesSearchSource.search(query: Swift.String, searchComplete: (Swift.Array&lt;SearchTest.SearchItemViewModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Services/SearchSources/ItunesSearchSource.swift"
+                  timestampString = "558725239.5784169"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "576">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SearchTest.ItunesItem) -&gt; SearchTest.ItunesItemViewModel in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in SearchTest.ItunesSearchSource.search(query: Swift.String, searchComplete: (Swift.Array&lt;SearchTest.SearchItemViewModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Services/SearchSources/ItunesSearchSource.swift"
+                  timestampString = "558725239.581991"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "14">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/SearchSources/ItunesSearchSource.swift"
+            timestampString = "558725651.014604"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "search(query:searchComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/SearchSources/ItunesSearchSource.swift"
+            timestampString = "558725651.014999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "search(query:searchComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/CoreSearch/SearchSource.swift"
+            timestampString = "558725651.015432"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "parseResponse(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
