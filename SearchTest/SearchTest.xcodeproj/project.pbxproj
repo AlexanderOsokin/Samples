@@ -19,7 +19,6 @@
 		B16B9CBA2147086800514AC2 /* RTLGitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16B9CB92147086800514AC2 /* RTLGitTableViewCell.xib */; };
 		B16B9CBD214708D500514AC2 /* ItunesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CBC214708D500514AC2 /* ItunesTableViewCell.swift */; };
 		B16B9CBF214708EC00514AC2 /* GitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CBE214708EC00514AC2 /* GitTableViewCell.swift */; };
-		B16B9CC121470A1C00514AC2 /* TableViewCellDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CC021470A1C00514AC2 /* TableViewCellDirection.swift */; };
 		B16B9CC621470B6000514AC2 /* GitItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CC521470B6000514AC2 /* GitItemViewModel.swift */; };
 		B16B9CC821470BA400514AC2 /* MainViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CC721470BA400514AC2 /* MainViewControllerViewModel.swift */; };
 		B16B9CCB21470CC800514AC2 /* SearchEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CCA21470CC800514AC2 /* SearchEndpoint.swift */; };
@@ -84,7 +83,6 @@
 		B16B9CB92147086800514AC2 /* RTLGitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RTLGitTableViewCell.xib; sourceTree = "<group>"; };
 		B16B9CBC214708D500514AC2 /* ItunesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesTableViewCell.swift; sourceTree = "<group>"; };
 		B16B9CBE214708EC00514AC2 /* GitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTableViewCell.swift; sourceTree = "<group>"; };
-		B16B9CC021470A1C00514AC2 /* TableViewCellDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellDirection.swift; sourceTree = "<group>"; };
 		B16B9CC521470B6000514AC2 /* GitItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitItemViewModel.swift; sourceTree = "<group>"; };
 		B16B9CC721470BA400514AC2 /* MainViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerViewModel.swift; sourceTree = "<group>"; };
 		B16B9CCA21470CC800514AC2 /* SearchEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEndpoint.swift; sourceTree = "<group>"; };
@@ -263,7 +261,6 @@
 				B16B9CB92147086800514AC2 /* RTLGitTableViewCell.xib */,
 				B16B9CBC214708D500514AC2 /* ItunesTableViewCell.swift */,
 				B16B9CBE214708EC00514AC2 /* GitTableViewCell.swift */,
-				B16B9CC021470A1C00514AC2 /* TableViewCellDirection.swift */,
 			);
 			path = TableCells;
 			sourceTree = "<group>";
@@ -450,7 +447,6 @@
 				B16B9CBF214708EC00514AC2 /* GitTableViewCell.swift in Sources */,
 				B16B9CCD21470DDF00514AC2 /* HttpClient.swift in Sources */,
 				B16B9CDA2148006700514AC2 /* SearchSource.swift in Sources */,
-				B16B9CC121470A1C00514AC2 /* TableViewCellDirection.swift in Sources */,
 				B16002EF214D48C100651CC3 /* ItunesitemViewModel.swift in Sources */,
 				B16B9CCB21470CC800514AC2 /* SearchEndpoint.swift in Sources */,
 				B16002EB214D400B00651CC3 /* SearchItemViewModel.swift in Sources */,

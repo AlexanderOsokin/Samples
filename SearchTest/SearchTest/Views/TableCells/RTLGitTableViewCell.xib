@@ -17,8 +17,9 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="87.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GmR-EN-9El">
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GmR-EN-9El">
                         <rect key="frame" x="295" y="8" width="72" height="72"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="height" constant="72" id="TXv-c9-quT"/>
                             <constraint firstAttribute="width" constant="72" id="tKT-Pl-1or"/>
@@ -41,6 +42,9 @@
                                 </fragment>
                             </attributedString>
                         </state>
+                        <connections>
+                            <action selector="btnLinkClicked:" destination="Jge-f9-Jha" eventType="touchUpInside" id="NdI-AI-Yiu"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>
@@ -55,7 +59,7 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="btnLink" destination="kK0-js-Bkk" id="nX9-hi-7J4"/>
+                <outlet property="btnLink" destination="kK0-js-Bkk" id="MH6-YY-T7c"/>
                 <outlet property="picture" destination="GmR-EN-9El" id="pIr-E2-341"/>
                 <outlet property="title" destination="WDy-Zd-ujO" id="Hfn-Al-GP8"/>
             </connections>

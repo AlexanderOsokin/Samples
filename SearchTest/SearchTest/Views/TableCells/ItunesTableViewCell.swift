@@ -11,10 +11,19 @@ import UIKit
 
 public class ItunesTableViewCell: UITableViewCell {
 
-	@IBOutlet weak var picture: UIImageView!
+	@IBOutlet weak var picture: UIImageView! {
+		didSet {
+			addTapRecognizer()
+		}
+	}
 	@IBOutlet weak var title: UILabel!
 	@IBOutlet weak var author: UILabel!
-	
+
+	func addTapRecognizer() {
+		let tapRecognizer: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(didTapImage))
+		self.picture.addGestureRecognizer(tapRecognizer)
+	}
+
 	weak var viewModel: ItunesItemViewModel? {
 		didSet{
 			title.text = viewModel?.model.title
@@ -27,10 +36,20 @@ public class ItunesTableViewCell: UITableViewCell {
 			}
 		}
 	}
+	weak var delegate: MainViewControllerDelegate?
+
+	@objc func didTapImage() {
+		delegate?.imageSelected(image: picture.image!)
+	}
+
 }
 
 extension ItunesTableViewCell: Configurable {
-	func setViewModel(model: SearchItemViewModel) {
+	func setViewModel(model: SearchItemViewModel, mainDelegate: MainViewControllerDelegate) {
 		self.viewModel = model as? ItunesItemViewModel
+		self.delegate = mainDelegate
 	}
 }
+
+
+

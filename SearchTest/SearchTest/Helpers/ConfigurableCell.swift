@@ -7,7 +7,8 @@
 //
 
 import Foundation
+import UIKit
 
 protocol Configurable {
-	func setViewModel(model: SearchItemViewModel)
+	func setViewModel(model: SearchItemViewModel, mainDelegate: MainViewControllerDelegate)
 }

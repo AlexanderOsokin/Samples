@@ -17,7 +17,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="87.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="etV-4f-CaM">
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="etV-4f-CaM">
                         <rect key="frame" x="8" y="8" width="72" height="72"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="72" id="F0o-uc-dju"/>
@@ -41,6 +41,9 @@
                                 </fragment>
                             </attributedString>
                         </state>
+                        <connections>
+                            <action selector="btnLinkClicked:" destination="s46-vK-N4g" eventType="touchUpInside" id="SZT-yq-JGT"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>

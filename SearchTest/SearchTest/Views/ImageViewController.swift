@@ -17,42 +17,34 @@ class ImageViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     public weak var delegate: ImageViewControllerDelegate?
-    
+
+	private weak var image: UIImage!;
+
     public func SetImage(image: UIImage)
     {
-        UIView.transition(with: imageView, duration: 1, options: [.curveEaseIn], animations: {
-            [unowned self] in
-            self.imageView.image = image
-        }, completion: nil)
+		self.image = image
     }
-    /*
-    func configureView() {
-        // Update the user interface for the detail item.
-        if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.description
-            }
-        }
-    }
+	
+	func addTapRecognizer() {
+		let tapRecognizer: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(didTapImage))
+		self.imageView.addGestureRecognizer(tapRecognizer)
+	}
+
+	@objc func didTapImage() {
+		delegate?.close()
+	}
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        configureView()
-    }
+		addTapRecognizer()
+	}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    var detailItem: NSDate? {
-        didSet {
-            // Update the view.
-            configureView()
-        }
-    }
-*/
+	override func viewWillAppear(_ animated: Bool) {
+		UIView.transition(with: imageView, duration: 1, options: [.curveEaseIn], animations: {
+			[unowned self] in
+			self.imageView.image = self.image
+			}, completion: nil)
+	}
 
 }
 

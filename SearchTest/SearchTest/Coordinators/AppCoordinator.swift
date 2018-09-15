@@ -8,12 +8,13 @@
 
 import Foundation
 import UIKit
+import  SafariServices
 
 class AppCoordinator: RootCoordinator{
     
     var services: Services
     var childCoordinators: [Coordinator] = []
-    
+	var searhController: UISearchController = UISearchController(searchResultsController: nil)
     var rootViewController: UIViewController {
         return navigationController
     }
@@ -42,11 +43,22 @@ class AppCoordinator: RootCoordinator{
 		let viewModel = MainViewControllerViewModel(searchSources: sources, httpClient: services.httpClient)
         mainController.delegate = self
         mainController.viewModel = viewModel
+		mainController.searchController = searhController
         navigationController.viewControllers = [mainController]
     }
 }
 
 extension AppCoordinator: MainViewControllerDelegate {
+
+	func linkCLicked(url: String?) {
+		guard let url = url,
+			let urlToOpen = URL(string: url) else {
+			return
+		}
+		let safariController = SFSafariViewController(url: urlToOpen)
+		searhController.present(safariController, animated: true, completion: nil)
+	}
+
 
     func imageSelected(image: UIImage) {
        
@@ -54,7 +66,7 @@ extension AppCoordinator: MainViewControllerDelegate {
         imageCoordinator.delegate = self
         addChildCoordinator(imageCoordinator)
         imageCoordinator.Start()
-        rootViewController.present(imageCoordinator.rootViewController, animated: true, completion: nil)
+        searhController.present(imageCoordinator.rootViewController, animated: true, completion: nil)
     }
 }
 

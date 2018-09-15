@@ -9,7 +9,8 @@
 import UIKit
 
 protocol MainViewControllerDelegate: AnyObject {
-    func imageSelected(image: UIImage)
+	func imageSelected(image: UIImage)
+	func linkCLicked(url: String?)
 }
 
 class MainViewController: UITableViewController {
@@ -25,7 +26,7 @@ class MainViewController: UITableViewController {
         }
     }
     
-    let searchController = UISearchController(searchResultsController: nil)
+	public weak var searchController: UISearchController!
  
     public weak var delegate: MainViewControllerDelegate?
 
@@ -38,13 +39,12 @@ class MainViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-		registerCells()
 
+		registerCells()
 
         searchController.searchResultsUpdater = self
         searchController.definesPresentationContext = true
         searchController.dimsBackgroundDuringPresentation = false
-        
         navigationController?.navigationBar.prefersLargeTitles = false
         navigationItem.searchController = searchController
         navigationItem.hidesSearchBarWhenScrolling = false
@@ -66,7 +66,7 @@ class MainViewController: UITableViewController {
         let identifier = cellViewModel.cellIdentifier(atIndex: indexPath.row)
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
         guard let configurableCell = cell as? Configurable else {return cell}
-        configurableCell.setViewModel(model: cellViewModel)
+        configurableCell.setViewModel(model: cellViewModel, mainDelegate: delegate!)
         return cell
     }
 
@@ -77,12 +77,7 @@ class MainViewController: UITableViewController {
 	}
 
 	@IBAction func sourceChanged(_ sender: UISegmentedControl, forEvent event: UIEvent) {
-		if sender.selectedSegmentIndex == 0 {
-			viewModel.currentSource = .itunes
-		}
-		else {
-			viewModel.currentSource = .github
-		}
+		viewModel.currentSource =  sender.selectedSegmentIndex == 0 ? .itunes : .github
 	}
 }
 
