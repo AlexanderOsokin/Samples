@@ -14,6 +14,17 @@
 		B16002F7214D501200651CC3 /* SearchItemCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16002F6214D501200651CC3 /* SearchItemCellType.swift */; };
 		B16002F9214D5BAF00651CC3 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16002F8214D5BAF00651CC3 /* ConfigurableCell.swift */; };
 		B16002FB214D739C00651CC3 /* ItunesSearchSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16002FA214D739C00651CC3 /* ItunesSearchSource.swift */; };
+		B1600300214EB79200651CC3 /* ZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16002FF214EB79200651CC3 /* ZoomAnimator.swift */; };
+		B1600302214EB9B400651CC3 /* ZoomTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1600301214EB9B400651CC3 /* ZoomTransitionController.swift */; };
+		B1600303214EDBF000651CC3 /* GitSearchSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CDB2148010F00514AC2 /* GitSearchSource.swift */; };
+		B1600304214EDBF500651CC3 /* SearchSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16002F4214D4C4F00651CC3 /* SearchSourceType.swift */; };
+		B1600305214EDBF800651CC3 /* ItunesSearchSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16002FA214D739C00651CC3 /* ItunesSearchSource.swift */; };
+		B1600306214EDC0B00651CC3 /* SearchItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16002EA214D400B00651CC3 /* SearchItemViewModel.swift */; };
+		B1600307214EDC1200651CC3 /* HttpClient+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16002EC214D419500651CC3 /* HttpClient+Search.swift */; };
+		B1600308214EDC1800651CC3 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CCC21470DDF00514AC2 /* HttpClient.swift */; };
+		B1600309214EDC4C00651CC3 /* GitItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CC521470B6000514AC2 /* GitItemViewModel.swift */; };
+		B160030A214EDC5000651CC3 /* ItunesitemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16002EE214D48C100651CC3 /* ItunesitemViewModel.swift */; };
+		B160030B214EDC5400651CC3 /* SearchItemCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16002F6214D501200651CC3 /* SearchItemCellType.swift */; };
 		B16B9CB52146CE1B00514AC2 /* RTLItunesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16B9CB42146CE1B00514AC2 /* RTLItunesTableViewCell.xib */; };
 		B16B9CB72147081F00514AC2 /* LTRGitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16B9CB62147081F00514AC2 /* LTRGitTableViewCell.xib */; };
 		B16B9CBA2147086800514AC2 /* RTLGitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16B9CB92147086800514AC2 /* RTLGitTableViewCell.xib */; };
@@ -30,7 +41,7 @@
 		B16B9CDA2148006700514AC2 /* SearchSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CD92148006700514AC2 /* SearchSource.swift */; };
 		B16B9CDC2148010F00514AC2 /* GitSearchSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CDB2148010F00514AC2 /* GitSearchSource.swift */; };
 		B16B9CE02148530200514AC2 /* SearchEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CCA21470CC800514AC2 /* SearchEndpoint.swift */; };
-		B16B9CE221485F2900514AC2 /* JsonParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CE121485F2900514AC2 /* JsonParseTests.swift */; };
+		B16B9CE221485F2900514AC2 /* SearchSourceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CE121485F2900514AC2 /* SearchSourceTest.swift */; };
 		B16B9CE321485F6C00514AC2 /* GithubResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CD521470FC200514AC2 /* GithubResponse.swift */; };
 		B16B9CE421485F6F00514AC2 /* ItunesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CD321470FB000514AC2 /* ItunesResponse.swift */; };
 		B16B9CE521485F7200514AC2 /* ItunesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B9CD121470F7A00514AC2 /* ItunesItem.swift */; };
@@ -78,6 +89,8 @@
 		B16002F6214D501200651CC3 /* SearchItemCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemCellType.swift; sourceTree = "<group>"; };
 		B16002F8214D5BAF00651CC3 /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
 		B16002FA214D739C00651CC3 /* ItunesSearchSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesSearchSource.swift; sourceTree = "<group>"; };
+		B16002FF214EB79200651CC3 /* ZoomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAnimator.swift; sourceTree = "<group>"; };
+		B1600301214EB9B400651CC3 /* ZoomTransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomTransitionController.swift; sourceTree = "<group>"; };
 		B16B9CB42146CE1B00514AC2 /* RTLItunesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RTLItunesTableViewCell.xib; sourceTree = "<group>"; };
 		B16B9CB62147081F00514AC2 /* LTRGitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTRGitTableViewCell.xib; sourceTree = "<group>"; };
 		B16B9CB92147086800514AC2 /* RTLGitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RTLGitTableViewCell.xib; sourceTree = "<group>"; };
@@ -93,7 +106,7 @@
 		B16B9CD521470FC200514AC2 /* GithubResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubResponse.swift; sourceTree = "<group>"; };
 		B16B9CD92148006700514AC2 /* SearchSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSource.swift; sourceTree = "<group>"; };
 		B16B9CDB2148010F00514AC2 /* GitSearchSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSearchSource.swift; sourceTree = "<group>"; };
-		B16B9CE121485F2900514AC2 /* JsonParseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParseTests.swift; sourceTree = "<group>"; };
+		B16B9CE121485F2900514AC2 /* SearchSourceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSourceTest.swift; sourceTree = "<group>"; };
 		B18BD7D32140144E00C475AB /* SearchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18BD7D62140144E00C475AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B18BD7D82140144E00C475AB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +165,15 @@
 			path = SearchSources;
 			sourceTree = "<group>";
 		};
+		B16002FC214E90DE00651CC3 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B16002FF214EB79200651CC3 /* ZoomAnimator.swift */,
+				B1600301214EB9B400651CC3 /* ZoomTransitionController.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		B16B9CC221470B1800514AC2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +230,7 @@
 		B18BD7D52140144E00C475AB /* SearchTest */ = {
 			isa = PBXGroup;
 			children = (
+				B16002FC214E90DE00651CC3 /* Animation */,
 				B16B9CCE21470F3A00514AC2 /* Models */,
 				B16B9CC221470B1800514AC2 /* ViewModels */,
 				B18BD8142140252D00C475AB /* Helpers */,
@@ -228,7 +251,7 @@
 			children = (
 				B18BD7ED2140145000C475AB /* HttpTests.swift */,
 				B18BD7EF2140145000C475AB /* Info.plist */,
-				B16B9CE121485F2900514AC2 /* JsonParseTests.swift */,
+				B16B9CE121485F2900514AC2 /* SearchSourceTest.swift */,
 			);
 			path = SearchTestTests;
 			sourceTree = "<group>";
@@ -434,6 +457,7 @@
 				B18BD80C21401EB300C475AB /* Coordinator.swift in Sources */,
 				B18BD7DB2140144E00C475AB /* ImageViewController.swift in Sources */,
 				B16B9CDC2148010F00514AC2 /* GitSearchSource.swift in Sources */,
+				B1600302214EB9B400651CC3 /* ZoomTransitionController.swift in Sources */,
 				B18BD8162140254700C475AB /* Storyboard+Extensions.swift in Sources */,
 				B16B9CD021470F4F00514AC2 /* GitUser.swift in Sources */,
 				B18BD81821402E8D00C475AB /* ImageCoordinator.swift in Sources */,
@@ -453,6 +477,7 @@
 				B18BD7D92140144E00C475AB /* MainViewController.swift in Sources */,
 				B18BD810214020B000C475AB /* RootCoordinator.swift in Sources */,
 				B16B9CBD214708D500514AC2 /* ItunesTableViewCell.swift in Sources */,
+				B1600300214EB79200651CC3 /* ZoomAnimator.swift in Sources */,
 				B16002F9214D5BAF00651CC3 /* ConfigurableCell.swift in Sources */,
 				B16002ED214D419500651CC3 /* HttpClient+Search.swift in Sources */,
 				B16B9CC621470B6000514AC2 /* GitItemViewModel.swift in Sources */,
@@ -467,13 +492,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				B18BD7EE2140145000C475AB /* HttpTests.swift in Sources */,
+				B160030B214EDC5400651CC3 /* SearchItemCellType.swift in Sources */,
+				B1600309214EDC4C00651CC3 /* GitItemViewModel.swift in Sources */,
 				B16B9CE521485F7200514AC2 /* ItunesItem.swift in Sources */,
 				B16B9CE621485F7400514AC2 /* GitUser.swift in Sources */,
+				B1600303214EDBF000651CC3 /* GitSearchSource.swift in Sources */,
+				B1600308214EDC1800651CC3 /* HttpClient.swift in Sources */,
 				B16B9CE321485F6C00514AC2 /* GithubResponse.swift in Sources */,
+				B160030A214EDC5000651CC3 /* ItunesitemViewModel.swift in Sources */,
+				B1600306214EDC0B00651CC3 /* SearchItemViewModel.swift in Sources */,
 				B16B9CE821485F9000514AC2 /* SearchSource.swift in Sources */,
 				B16B9CE02148530200514AC2 /* SearchEndpoint.swift in Sources */,
 				B16B9CE421485F6F00514AC2 /* ItunesResponse.swift in Sources */,
-				B16B9CE221485F2900514AC2 /* JsonParseTests.swift in Sources */,
+				B1600307214EDC1200651CC3 /* HttpClient+Search.swift in Sources */,
+				B1600305214EDBF800651CC3 /* ItunesSearchSource.swift in Sources */,
+				B1600304214EDBF500651CC3 /* SearchSourceType.swift in Sources */,
+				B16B9CE221485F2900514AC2 /* SearchSourceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

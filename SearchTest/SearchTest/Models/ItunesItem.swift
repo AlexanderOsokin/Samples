@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct ItunesItem: Codable {
+struct ItunesItem: Codable {
 	let title: String
 	let author: String
 	let image: String

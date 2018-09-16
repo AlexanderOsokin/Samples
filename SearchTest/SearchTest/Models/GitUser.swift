@@ -8,14 +8,14 @@
 
 import Foundation
 
-public struct GitUser: Codable {
+struct GitUser: Codable {
     let login: String
     let url: String
     let image: String
     
     enum CodingKeys: String, CodingKey {
         case login
-        case url
+        case url = "html_url"
         case image = "avatar_url"
     }
 }

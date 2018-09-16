@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class HttpClient {
+class HttpClient {
 
 	private var requestTask: URLSessionDataTask?
 
@@ -16,17 +16,27 @@ public class HttpClient {
 
 		requestTask?.cancel()
 
-		guard let requestUrl = URL(string:url) else {
+		let formattedUrl = url.replacingOccurrences(of: " ", with: "+")
+
+		guard let requestUrl = URL(string:formattedUrl) else {
 			completion(nil,"failed to create Url")
 			return
 		}
 		let request = URLRequest(url:requestUrl)
 		requestTask = URLSession.shared.dataTask(with: request) {
 			(data, response, error) in
-			print(data!)
-				completion(data, error?.localizedDescription)
+
+			if let error = error as NSError? {
+				if error.code == NSURLErrorCancelled {
+					return
+				}
+			}
+
+			completion(data, error?.localizedDescription)
 		}
-		requestTask?.resume()	}
+		requestTask?.resume()
+
+	}
 
 	func cancelRequest() -> Void {
 		requestTask?.cancel()

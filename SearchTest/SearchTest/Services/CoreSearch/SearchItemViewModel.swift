@@ -16,8 +16,9 @@ protocol SearchItemViewModel: Any {
 
 extension SearchItemViewModel {
 	func isParity(index: Int) -> Bool {
-		if index == 0 || index % 2 != 0  { return false }
-		return true
+		if index == 0 { return false }
+		if index % 2 != 0  { return true }
+		return false
 	}
 }
 

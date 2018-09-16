@@ -8,6 +8,6 @@
 
 import Foundation
 
-public struct GithubResponse: Codable {
+struct GithubResponse: Codable {
    let items: [GitUser]
 }

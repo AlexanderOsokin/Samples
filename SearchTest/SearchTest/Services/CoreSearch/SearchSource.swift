@@ -9,7 +9,7 @@
 import Foundation
 
 protocol SearchSource {
-	func search(query: String, searchComplete: @escaping  ([SearchItemViewModel]) -> Void ) -> Void
+	func search(query: String, searchComplete: @escaping  ([SearchItemViewModel], String?) -> Void ) -> Void
 }
 
 extension SearchSource {

@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class ItunesItemViewModel {
+class ItunesItemViewModel {
 
 	var model: ItunesItem
 

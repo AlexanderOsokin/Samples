@@ -18,7 +18,6 @@ class HttpTests: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
         self.httpClient = HttpClient()
-        self.httpClient.delegate = self
     }
     
     override func tearDown() {
@@ -29,21 +28,21 @@ class HttpTests: XCTestCase {
     
     func testGitQuery() {
             expectation = XCTestExpectation(description: "test git query")
-            httpClient.request(endpoint: .github, query: "ronin")
+			httpClient.searchRequest(endpoint: .github, query: "james") { [unowned self] data, description in
+			XCTAssertNotNil(data)
+			XCTAssertNil(description)
+			self.expectation.fulfill()
+		}
             wait(for: [expectation], timeout: 20)
     }
     
     func testItunesQuery() {
-            expectation = XCTestExpectation(description: "test itunes query")
-            httpClient.request(endpoint: .itunes, query: "Star Wars")
-            wait(for: [expectation], timeout: 20)
-    }
-}
-
-extension HttpTests: HttpClientDelegate {
-    func requestCompleteWithError(_ data: Data?, _ errorDescription: String?) {
-        XCTAssertNotNil(data)
-        XCTAssertNil(errorDescription)
-        expectation.fulfill()
+		expectation = XCTestExpectation(description: "test itunes query")
+		httpClient.searchRequest(endpoint: .github, query: "frank") { [unowned self] data, description in
+			XCTAssertNotNil(data)
+			XCTAssertNil(description)
+			self.expectation.fulfill()
+		}
+		wait(for: [expectation], timeout: 20)
     }
 }

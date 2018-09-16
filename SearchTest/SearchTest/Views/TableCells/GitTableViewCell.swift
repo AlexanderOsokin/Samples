@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class GitTableViewCell: UITableViewCell {
+class GitTableViewCell: UITableViewCell {
 
 	@IBOutlet weak var picture: UIImageView!  {
 		didSet {
@@ -32,7 +32,7 @@ public class GitTableViewCell: UITableViewCell {
 	weak var viewModel: GitItemViewModel? {
 		didSet{
 			title.text = viewModel?.model.login
-			btnLink.titleLabel?.text = viewModel?.model.url
+			//btnLink.titleLabel?.text = viewModel?.model.url
 			viewModel?.requestImage { [weak self] imageData, imageUrl in
 				guard let modelUrl = self?.viewModel?.model.image, imageUrl == modelUrl else { return }
 				DispatchQueue.main.async { [weak self] in
@@ -43,16 +43,19 @@ public class GitTableViewCell: UITableViewCell {
 	}
 
 	weak var delegate: MainViewControllerDelegate?
+	weak var cellDelegate: ImageCellDelegate?
 
 	@objc func didTapImage() {
-		delegate?.imageSelected(image: picture.image!)
+		if self.picture.image == nil { return }
+		cellDelegate?.imageSelected(imageView: self.picture!, frame: self.frame)
 	}
 }
 
 extension GitTableViewCell: Configurable {
-	func setViewModel(model: SearchItemViewModel, mainDelegate: MainViewControllerDelegate) {
+	func setViewModel(model: SearchItemViewModel, mainDelegate: MainViewControllerDelegate, cellDelegate: ImageCellDelegate) {
 		self.viewModel = model as? GitItemViewModel
 		self.delegate = mainDelegate
+		self.cellDelegate = cellDelegate
 	}
 }
 

@@ -8,8 +8,6 @@
 
 import Foundation
 
-public class Services {
-
+class Services {
 	var httpClient: HttpClient = HttpClient()
-
 }

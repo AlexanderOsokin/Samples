@@ -8,9 +8,9 @@
 
 import Foundation
 
-public class ItunesSearchSource {
+class ItunesSearchSource {
 
-	private weak var httpClient: HttpClient!
+	private var httpClient: HttpClient
 
 	init(httpClient: HttpClient) {
 		self.httpClient = httpClient
@@ -19,14 +19,20 @@ public class ItunesSearchSource {
 
 extension ItunesSearchSource: SearchSource {
 
-	func search(query: String, searchComplete: @escaping ([SearchItemViewModel]) -> Void)  {
+	func search(query: String, searchComplete: @escaping ([SearchItemViewModel], String?) -> Void)  {
 		httpClient.searchRequest(endpoint: .itunes, query: query) { [unowned self] data, description in
-			guard let jsonData = data,
-				let response: ItunesResponse = self.parseResponse(data: jsonData) else { searchComplete([]); return }
+			guard let jsonData = data else {
+				searchComplete([], description)
+				return
+			}
+			guard let response: ItunesResponse = self.parseResponse(data: jsonData) else {
+				searchComplete([], "Failed to parse json")
+				return
+			}
 			let searchItems = response.results.map({(item) -> ItunesItemViewModel in
 				return ItunesItemViewModel(model: item)
 			})
-			searchComplete(searchItems)
+			searchComplete(searchItems, nil)
 		}
 	}
 }

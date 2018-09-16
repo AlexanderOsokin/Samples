@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol Coordinator: class {
+protocol Coordinator: class {
     
     var services: Services { get }
     var childCoordinators: [Coordinator] { get set }
@@ -16,7 +16,7 @@ public protocol Coordinator: class {
     func Start()
 }
 
-public extension Coordinator {
+extension Coordinator {
     
     public func addChildCoordinator(_ childCoordinator: Coordinator) {
         self.childCoordinators.append(childCoordinator)

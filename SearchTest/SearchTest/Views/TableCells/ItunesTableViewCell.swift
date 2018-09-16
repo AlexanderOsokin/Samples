@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class ItunesTableViewCell: UITableViewCell {
+class ItunesTableViewCell: UITableViewCell {
 
 	@IBOutlet weak var picture: UIImageView! {
 		didSet {
@@ -37,17 +37,20 @@ public class ItunesTableViewCell: UITableViewCell {
 		}
 	}
 	weak var delegate: MainViewControllerDelegate?
-
+	weak var cellDelegate: ImageCellDelegate?
+	
 	@objc func didTapImage() {
-		delegate?.imageSelected(image: picture.image!)
+		if self.picture.image == nil { return }
+		cellDelegate?.imageSelected(imageView: self.picture!, frame: self.frame)
 	}
 
 }
 
 extension ItunesTableViewCell: Configurable {
-	func setViewModel(model: SearchItemViewModel, mainDelegate: MainViewControllerDelegate) {
+	func setViewModel(model: SearchItemViewModel, mainDelegate: MainViewControllerDelegate, cellDelegate: ImageCellDelegate) {
 		self.viewModel = model as? ItunesItemViewModel
 		self.delegate = mainDelegate
+		self.cellDelegate = cellDelegate
 	}
 }
 

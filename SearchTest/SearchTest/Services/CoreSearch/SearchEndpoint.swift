@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum SearchEndpoint: String {
+enum SearchEndpoint: String {
     case itunes = "https://itunes.apple.com/search?term="
     case github = "https://api.github.com/search/users?q="
 }

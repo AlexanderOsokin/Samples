@@ -30,13 +30,14 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNE-g5-aRr">
-                        <rect key="frame" x="88" y="44" width="279" height="32"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNE-g5-aRr">
+                        <rect key="frame" x="88" y="44" width="48" height="32"/>
                         <state key="normal">
                             <attributedString key="attributedTitle">
-                                <fragment content="Button">
+                                <fragment content="Profile">
                                     <attributes>
                                         <font key="NSFont" size="17" name=".SFNSText"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                     </attributes>
                                 </fragment>
                             </attributedString>
@@ -53,7 +54,6 @@
                     <constraint firstItem="hNE-g5-aRr" firstAttribute="centerY" secondItem="U1a-Ix-kMw" secondAttribute="centerY" constant="16" id="SKA-m5-UdF"/>
                     <constraint firstItem="XQw-xv-hd6" firstAttribute="leading" secondItem="etV-4f-CaM" secondAttribute="trailing" constant="8" id="WtK-ru-mlE"/>
                     <constraint firstAttribute="trailing" secondItem="XQw-xv-hd6" secondAttribute="trailing" constant="8" id="bvu-Rc-QgB"/>
-                    <constraint firstAttribute="trailing" secondItem="hNE-g5-aRr" secondAttribute="trailing" constant="8" id="fow-ET-FeM"/>
                     <constraint firstItem="etV-4f-CaM" firstAttribute="leading" secondItem="U1a-Ix-kMw" secondAttribute="leading" constant="8" id="sW1-KN-6la"/>
                 </constraints>
             </tableViewCellContentView>

@@ -8,11 +8,12 @@
 
 import Foundation
 
-public protocol TableViewModelDelegate: AnyObject {
+protocol TableViewModelDelegate: AnyObject {
     func dataChanged() -> Void
+	func error(description: String) -> Void
 }
 
-public class MainViewControllerViewModel {
+class MainViewControllerViewModel {
 
 	private var timer: Timer = Timer()
     private var items: [SearchItemViewModel] = []
@@ -57,13 +58,20 @@ public class MainViewControllerViewModel {
 			return
 		}
 
-		guard query.count > 3 else { return }
+		guard query.count > 2 else { return }
 
 		timer = Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false) { [unowned self] t in
 			if let searchSource = self.searchSources[self.currentSource] {
-				searchSource.search(query: query) {[unowned self] results in
+				searchSource.search(query: query) {[unowned self] results, error in
 					self.items = results
 					self.delegate?.dataChanged()
+
+					if let error = error {
+						self.delegate?.error(description: error)
+					}
+					else if (results.isEmpty) {
+						self.delegate?.error(description: "Nothing to be found")
+					}
 				}
 			}
 		}

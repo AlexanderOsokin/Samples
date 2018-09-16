@@ -9,36 +9,39 @@
 import Foundation
 import UIKit
 
-public protocol ImageCoordinatorDelegate: AnyObject {
+protocol ImageCoordinatorDelegate: AnyObject {
     
     func didCloseImage(imageCoordinator: ImageCoordinator)
 }
 
-public class ImageCoordinator: RootCoordinator {
+class ImageCoordinator: RootCoordinator {
     
-    public var services: Services
+	var services: Services
     
-    public var childCoordinators: [Coordinator] = []
-    
-    public func Start() {
-        rootController.SetImage(image: image)
+	var childCoordinators: [Coordinator] = []
+	var transitionController = ZoomTransitionController()
+
+	func Start() {
+       rootController.image = self.image
     }
     
-    public var rootViewController: UIViewController {
+	var rootViewController: UIViewController {
         return rootController
     }
     
-    private var image: UIImage
+    private  weak var image: UIImage!
     
     private lazy var rootController: ImageViewController = {
         let imageController = ImageViewController.fromStoryboard()
         imageController.delegate = self
+		transitionController.toDelegate = imageController
+		imageController.transitioningDelegate = transitionController
         return imageController
     }()
     
-    public weak var delegate: ImageCoordinatorDelegate?
+    weak var delegate: ImageCoordinatorDelegate?
     
-    public init (image: UIImage, services: Services) {
+    init (image: UIImage, services: Services) {
         self.image = image
         self.services = services
     }

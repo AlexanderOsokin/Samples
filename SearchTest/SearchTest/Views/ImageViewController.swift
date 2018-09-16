@@ -16,15 +16,9 @@ class ImageViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     
-    public weak var delegate: ImageViewControllerDelegate?
+	weak var delegate: ImageViewControllerDelegate?
+	weak var image: UIImage!
 
-	private weak var image: UIImage!;
-
-    public func SetImage(image: UIImage)
-    {
-		self.image = image
-    }
-	
 	func addTapRecognizer() {
 		let tapRecognizer: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(didTapImage))
 		self.imageView.addGestureRecognizer(tapRecognizer)
@@ -36,15 +30,26 @@ class ImageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+		imageView.image = image
 		addTapRecognizer()
 	}
+}
 
-	override func viewWillAppear(_ animated: Bool) {
-		UIView.transition(with: imageView, duration: 1, options: [.curveEaseIn], animations: {
-			[unowned self] in
-			self.imageView.image = self.image
-			}, completion: nil)
+extension ImageViewController: ZoomAnimatorDelegate {
+
+	func transitionWillStartWith(zoomAnimator: ZoomAnimator) {
 	}
 
+	func transitionDidEndWith(zoomAnimator: ZoomAnimator) {
+	}
+
+	func referenceImageView(for zoomAnimator: ZoomAnimator) -> UIImageView? {
+		return self.imageView
+	}
+
+	func referenceImageViewFrameInTransitioningView(for zoomAnimator: ZoomAnimator) -> CGRect? {
+		return self.imageView.frame
+	}
 }
+
 

@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Coordinators/AppCoordinator.swift"
-            timestampString = "558738810.726411"
+            timestampString = "558821706.559054"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "Start()"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Coordinators/AppCoordinator.swift"
-            timestampString = "558738810.726531"
+            timestampString = "558821706.559244"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Models/GithubResponse.swift"
-            timestampString = "558425811.830351"
+            timestampString = "558821706.559471"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
@@ -332,7 +332,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Services/SearchSources/GitSearchSource.swift"
-            timestampString = "558738810.726951"
+            timestampString = "558821706.560025"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -348,7 +348,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Services/CoreSearch/SearchSource.swift"
-            timestampString = "558738810.727035"
+            timestampString = "558821706.560163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -364,11 +364,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Services/HttpClient.swift"
-            timestampString = "558738810.727106"
+            timestampString = "558821706.560271"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "request(url:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -380,7 +380,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Views/TableCells/GitTableViewCell.swift"
-            timestampString = "558738810.7272021"
+            timestampString = "558821706.560388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -396,7 +396,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Views/TableCells/GitTableViewCell.swift"
-            timestampString = "558738810.727285"
+            timestampString = "558821706.560511"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -444,7 +444,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Views/TableCells/GitTableViewCell.swift"
-            timestampString = "558738810.727365"
+            timestampString = "558821706.560631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -460,7 +460,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Views/TableCells/GitTableViewCell.swift"
-            timestampString = "558738810.727451"
+            timestampString = "558821706.5607491"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
@@ -508,7 +508,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/ViewModels/ItunesitemViewModel.swift"
-            timestampString = "558738810.727537"
+            timestampString = "558821706.560927"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
@@ -556,7 +556,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/ViewModels/ItunesitemViewModel.swift"
-            timestampString = "558738810.727623"
+            timestampString = "558821706.5610549"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -568,15 +568,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Services/HttpClient.swift"
-            timestampString = "558738810.727722"
+            timestampString = "558821706.561206"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "request(url:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -588,7 +588,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Services/HttpClient.swift"
-            timestampString = "558738810.727808"
+            timestampString = "558821706.561325"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -604,11 +604,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Services/HttpClient.swift"
-            timestampString = "558738810.727942"
+            timestampString = "558821706.56144"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "request(url:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -620,7 +620,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/ViewModels/GitItemViewModel.swift"
-            timestampString = "558738810.72804"
+            timestampString = "558821706.561553"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -668,7 +668,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/ViewModels/GitItemViewModel.swift"
-            timestampString = "558738810.728116"
+            timestampString = "558821706.561672"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -684,59 +684,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Services/SearchSources/ItunesSearchSource.swift"
-            timestampString = "558738810.72821"
+            timestampString = "558821706.56181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "search(query:searchComplete:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in SearchTest.ItunesSearchSource.search(query: Swift.String, searchComplete: (Swift.Array&lt;SearchTest.SearchItemViewModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SearchTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Services/SearchSources/ItunesSearchSource.swift"
-                  timestampString = "558725239.5784169"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "576">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (SearchTest.ItunesItem) -&gt; SearchTest.ItunesItemViewModel in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in SearchTest.ItunesSearchSource.search(query: Swift.String, searchComplete: (Swift.Array&lt;SearchTest.SearchItemViewModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SearchTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobiledevmac1/Documents/GitHub/Samples/SearchTest/SearchTest/Services/SearchSources/ItunesSearchSource.swift"
-                  timestampString = "558725239.581991"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "14">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SearchTest/Services/SearchSources/ItunesSearchSource.swift"
-            timestampString = "558738810.728279"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "search(query:searchComplete:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -748,7 +700,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Services/SearchSources/ItunesSearchSource.swift"
-            timestampString = "558738810.728343"
+            timestampString = "558821706.561954"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -764,7 +716,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Services/CoreSearch/SearchSource.swift"
-            timestampString = "558738810.7284091"
+            timestampString = "558821706.562085"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
@@ -780,7 +732,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Views/TableCells/ItunesTableViewCell.swift"
-            timestampString = "558738810.7285351"
+            timestampString = "558821706.5622081"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -796,7 +748,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Views/TableCells/ItunesTableViewCell.swift"
-            timestampString = "558738810.728672"
+            timestampString = "558821706.562325"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -812,7 +764,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Views/TableCells/ItunesTableViewCell.swift"
-            timestampString = "558738810.728799"
+            timestampString = "558821706.562451"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -828,11 +780,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Views/TableCells/ItunesTableViewCell.swift"
-            timestampString = "558738810.72887"
+            timestampString = "558821706.562582"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "didTapImage()"
             landmarkType = "7">
          </BreakpointContent>
@@ -844,11 +796,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Views/ImageViewController.swift"
-            timestampString = "558738810.728966"
+            timestampString = "558821706.562718"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "didTapImage()"
             landmarkType = "7">
          </BreakpointContent>
@@ -860,12 +812,124 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SearchTest/Coordinators/ImageCoordinator.swift"
-            timestampString = "558738810.729038"
+            timestampString = "558821706.562862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "close()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Animation/PresentImageAnimationController.swift"
+            timestampString = "558803490.146538"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "animateTransition(using:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Animation/ZoomAnimator.swift"
+            timestampString = "558821706.5631011"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "animateZoomOutTransition(using:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTestTests/HttpTests.swift"
+            timestampString = "558821706.56322"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "testGitQuery()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTestTests/SearchSourceTest.swift"
+            timestampString = "558821706.563345"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "testGitQuery()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/HttpClient.swift"
+            timestampString = "558821706.563453"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "request(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/HttpClient.swift"
+            timestampString = "558821706.563557"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "request(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTest/Services/HttpClient.swift"
+            timestampString = "558821706.563668"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "request(url:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

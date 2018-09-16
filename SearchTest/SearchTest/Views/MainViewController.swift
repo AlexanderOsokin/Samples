@@ -11,6 +11,11 @@ import UIKit
 protocol MainViewControllerDelegate: AnyObject {
 	func imageSelected(image: UIImage)
 	func linkCLicked(url: String?)
+	func handleError(description: String)
+}
+
+protocol ImageCellDelegate: AnyObject {
+	func imageSelected(imageView: UIImageView, frame: CGRect)
 }
 
 class MainViewController: UITableViewController {
@@ -25,10 +30,10 @@ class MainViewController: UITableViewController {
 			viewModel.currentSource = .itunes;
         }
     }
-    
-	public weak var searchController: UISearchController!
+
+	let searchController = UISearchController(searchResultsController: nil)
  
-    public weak var delegate: MainViewControllerDelegate?
+	weak var delegate: MainViewControllerDelegate?
 
 	private func registerCells() {
 		let allCells = SearchItemCellType.toStringArray()
@@ -41,9 +46,9 @@ class MainViewController: UITableViewController {
         super.viewDidLoad()
 
 		registerCells()
-
+		self.definesPresentationContext = true
         searchController.searchResultsUpdater = self
-        searchController.definesPresentationContext = true
+        searchController.definesPresentationContext = false
         searchController.dimsBackgroundDuringPresentation = false
         navigationController?.navigationBar.prefersLargeTitles = false
         navigationItem.searchController = searchController
@@ -66,7 +71,7 @@ class MainViewController: UITableViewController {
         let identifier = cellViewModel.cellIdentifier(atIndex: indexPath.row)
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
         guard let configurableCell = cell as? Configurable else {return cell}
-        configurableCell.setViewModel(model: cellViewModel, mainDelegate: delegate!)
+		configurableCell.setViewModel(model: cellViewModel, mainDelegate: delegate!, cellDelegate: self)
         return cell
     }
 
@@ -79,6 +84,9 @@ class MainViewController: UITableViewController {
 	@IBAction func sourceChanged(_ sender: UISegmentedControl, forEvent event: UIEvent) {
 		viewModel.currentSource =  sender.selectedSegmentIndex == 0 ? .itunes : .github
 	}
+
+	var selectedImageView: UIImageView! = nil
+	var selectedFrame: CGRect = CGRect.zero
 }
 
 extension MainViewController: UISearchResultsUpdating {
@@ -93,5 +101,45 @@ extension MainViewController: TableViewModelDelegate {
 			self?.tableView.reloadData()
 		}
     }
+	func error(description: String) {
+		self.delegate?.handleError(description: description)
+	}
 }
 
+extension MainViewController: ImageCellDelegate {
+
+	func imageSelected(imageView: UIImageView, frame: CGRect) {
+		selectedImageView = imageView
+		selectedFrame = frame
+		delegate?.imageSelected(image: imageView.image!)
+	}
+
+}
+
+extension MainViewController: ZoomAnimatorDelegate {
+	func transitionWillStartWith(zoomAnimator: ZoomAnimator) {
+
+	}
+
+	func transitionDidEndWith(zoomAnimator: ZoomAnimator) {
+		/*let cell = self.collectionView.cellForItem(at: self.selectedIndexPath) as! PhotoCollectionViewCell
+
+		let cellFrame = self.collectionView.convert(cell.frame, to: self.view)
+
+		if cellFrame.minY < self.collectionView.contentInset.top {
+			self.collectionView.scrollToItem(at: self.selectedIndexPath, at: .top, animated: false)
+		} else if cellFrame.maxY > self.view.frame.height - self.collectionView.contentInset.bottom {
+			self.collectionView.scrollToItem(at: self.selectedIndexPath, at: .bottom, animated: false)
+		}*/
+	}
+
+	func referenceImageView(for zoomAnimator: ZoomAnimator) -> UIImageView? {
+		return selectedImageView
+	}
+
+	func referenceImageViewFrameInTransitioningView(for zoomAnimator: ZoomAnimator) -> CGRect? {
+
+		let frame = tableView.convert(selectedFrame, to: self.view)
+		return frame
+	}
+}

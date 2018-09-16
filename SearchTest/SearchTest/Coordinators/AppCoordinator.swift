@@ -14,7 +14,7 @@ class AppCoordinator: RootCoordinator{
     
     var services: Services
     var childCoordinators: [Coordinator] = []
-	var searhController: UISearchController = UISearchController(searchResultsController: nil)
+	var mainController: MainViewController!
     var rootViewController: UIViewController {
         return navigationController
     }
@@ -36,14 +36,13 @@ class AppCoordinator: RootCoordinator{
     }
     
     func Start() {
-        let mainController = MainViewController.fromStoryboard()
+		mainController = MainViewController.fromStoryboard()
         let gitSource = GitSearchSource(httpClient: services.httpClient)
 		let itunesSource = ItunesSearchSource(httpClient: services.httpClient)
 		let sources: [SearchSourceType: SearchSource] = [SearchSourceType.itunes: itunesSource, SearchSourceType.github: gitSource]
 		let viewModel = MainViewControllerViewModel(searchSources: sources, httpClient: services.httpClient)
         mainController.delegate = self
         mainController.viewModel = viewModel
-		mainController.searchController = searhController
         navigationController.viewControllers = [mainController]
     }
 }
@@ -56,9 +55,8 @@ extension AppCoordinator: MainViewControllerDelegate {
 			return
 		}
 		let safariController = SFSafariViewController(url: urlToOpen)
-		searhController.present(safariController, animated: true, completion: nil)
+		mainController.present(safariController, animated: true, completion: nil)
 	}
-
 
     func imageSelected(image: UIImage) {
        
@@ -66,8 +64,17 @@ extension AppCoordinator: MainViewControllerDelegate {
         imageCoordinator.delegate = self
         addChildCoordinator(imageCoordinator)
         imageCoordinator.Start()
-        searhController.present(imageCoordinator.rootViewController, animated: true, completion: nil)
+		imageCoordinator.transitionController.fromDelegate = mainController
+        mainController.present(imageCoordinator.rootViewController, animated: true, completion: nil)
     }
+
+	func handleError(description: String) {
+		DispatchQueue.main.async { [unowned self] in
+			let vc = UIAlertController(title: "Error", message: description, preferredStyle: .alert)
+			vc.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+			self.mainController.present(vc, animated: true, completion: nil)
+		}
+	}
 }
 
 extension AppCoordinator: ImageCoordinatorDelegate {

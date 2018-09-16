@@ -8,6 +8,6 @@
 
 import Foundation
 
-public struct ItunesResponse: Codable {
+struct ItunesResponse: Codable {
 	let results: [ItunesItem]
 }

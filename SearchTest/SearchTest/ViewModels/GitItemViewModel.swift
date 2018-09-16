@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class GitItemViewModel {
+class GitItemViewModel {
 
 	var model: GitUser
 
